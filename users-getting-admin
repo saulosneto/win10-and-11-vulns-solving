@@ -1,0 +1,6 @@
+to solve this, open a powershell with administrator pivileges on windows 10 or 11.
+
+in the folder c:\windows\system32\config path, fire up the command: icacls *.* /inheritance:e
+now users can't hack the admins accounts anymore. thats't it! :)
+
+ps: don't forget to delete restoration points to don't travel back in time without the config.
